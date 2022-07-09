@@ -1,0 +1,23 @@
+#title {
+    margin-top: 10;
+    max-width: 600px;
+    margin: 0 auto; 
+    text-align: center;
+}
+
+.title{
+    font-size: 75px;
+    text-align: center;
+    color:rgb(255, 208, 0);
+    vertical-align: middle;
+}
+
+.title:hover{
+    color:rgb(102, 0, 255)
+}
+
+.icon {
+    vertical-align: middle;
+}
+
+

@@ -1,0 +1,34 @@
+#content {
+    font-size: 24px;
+}
+
+.contentTitle {
+    font-size: 40px;
+    margin:10px auto;
+    position: relative;
+}
+.contentTitle::after{
+    content: "";
+    width: 100%; /*設定長方形寬度*/
+    height: 1px; /*設定長方形高度*/
+    background: #6a6a6a; /*設定長方形顏色*/
+    position: absolute; /*設定與<div>區塊的相對位置*/
+    left: 0px; /*從<div>區塊左上角起算，與左邊距離為0，即靠左的意思*/
+    top: 100%;
+}
+
+.deleteLine {
+    text-decoration-line: line-through;
+}
+
+.invisible {
+    color: #00000000;
+}
+.invisible:hover {
+    color: rgb(0, 0, 0)
+}
+
+.centerImg {
+    display: block;
+    margin: 0 auto;
+}

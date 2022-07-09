@@ -1,0 +1,41 @@
+.hover img {
+    position:absolute;
+    /* CSS3淡出淡入效果,1秒 */
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+.hover img:nth-of-type(2):hover{
+opacity:0; /*滑鼠滑入時，透明度變0*/
+}
+
+.box_block{
+    /* border:1px solid black; */
+    padding:10px;
+    margin:10px auto;
+    /* background-color: yellow; */
+    background-image: linear-gradient(to left,#685ed6, #c34bb1);
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.intro{
+    text-align: center;
+    position: relative; /*將整塊<div>當作基準位置*/
+    width: 600px; /*設定寬度，讓偽元素的寬度直接設100%*/
+}
+  
+/*新增的偽元素*/
+.intro::before{
+    content: ""; /*沒用到仍然要寫，雙引號內容留空*/
+    width: 100%; /*設定長方形寬度*/
+    height: 10px; /*設定長方形高度*/
+    background: #ff7600; /*設定長方形顏色*/
+    position: absolute; /*設定與<div>區塊的相對位置*/
+    left: 10px; /*從<div>區塊左上角起算，與左邊距離為0，即靠左的意思*/
+    top: 100%; /*從<div>區塊左上角起算，與上方距離為100%時才開始產生這個長方形，因此長方形會在整塊<div>區塊的下方*/
+}
