@@ -8,6 +8,9 @@
     #content {
         font-size: 16px;
     }
+    .box_block{
+        width: 75px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -20,6 +23,12 @@
     #content {
         font-size: 18px;
     }
+    .box_block{
+        width: 75px;
+    }
+    .box_block{
+        width: 100px;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -31,5 +40,8 @@
     }
     #content {
         font-size: 24px;
+    }
+    .box_block{
+        width: 150px;
     }
 }
