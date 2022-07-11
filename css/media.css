@@ -11,6 +11,9 @@
     .box_block{
         width: 100em;
     }
+    .title:hover{
+        color:rgb(0, 255, 38)
+    }
 }
 
 @media (min-width: 768px) {
@@ -25,6 +28,9 @@
     }
     .box_block{
         width: 10em;
+    }
+    .title:hover{
+        color:rgb(255, 0, 0)
     }
 }
 
