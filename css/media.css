@@ -1,15 +1,15 @@
-@media (max-width: 1200px) {
+@media (min-width: 1200px){
     .title{
-        font-size: 2.5em;
+        font-size: 4em;
     }
     .contentTitle {
-        font-size: 1.5em;
+        font-size: 2em;
     }
     #content {
-        font-size: 1em;
+        font-size: 1.2em;
     }
     .box_block{
-        width: 10em;
+        width: 9em;
     }
 }
 
@@ -24,7 +24,7 @@
         font-size: 1.5em;
     }
     .box_block{
-        width: 8em;
+        width: 7em;
     }
 }
 
@@ -52,16 +52,16 @@
         max-width: 20rem;
     }
     .title{
-        font-size: 4.5em;
+        font-size: 3em;
     }
     .contentTitle {
         font-size: 1.8em;
     }
     #content {
-        font-size: 1em;
+        font-size: 0.7em;
     }
     .box_block{
-        width: 4em;
+        width: 7em;
     }
 }
 /*
