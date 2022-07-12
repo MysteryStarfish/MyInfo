@@ -1,4 +1,4 @@
-@media (min-width: 1200px){
+@media (min-width: 993px){
     .title{
         font-size: 4em;
     }
@@ -44,7 +44,7 @@
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
     .contentBackGround{
         max-width: 20rem;
     }
@@ -52,16 +52,16 @@
         max-width: 20rem;
     }
     .title{
-        font-size: 2em;
+        font-size: 3em;
     }
     .contentTitle {
         font-size: 1.8em;
     }
     #content {
-        font-size: 0.4em;
+        font-size: 0.7em;
     }
     .box_block{
-        width: 10em;
+        width: 7.4em;
     }
 }
 /*
