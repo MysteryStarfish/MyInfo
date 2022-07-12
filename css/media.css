@@ -44,7 +44,7 @@
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 480px) {
     .contentBackGround{
         max-width: 20rem;
     }
@@ -58,7 +58,7 @@
         font-size: 1.8em;
     }
     #content {
-        font-size: 0.7em;
+        font-size: 1.25em;
     }
     .box_block{
         width: 7.4em;
