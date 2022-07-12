@@ -52,16 +52,16 @@
         max-width: 20rem;
     }
     .title{
-        font-size: 3em;
+        font-size: 2em;
     }
     .contentTitle {
         font-size: 1.8em;
     }
     #content {
-        font-size: 0.7em;
+        font-size: 0.4em;
     }
     .box_block{
-        width: 7em;
+        width: 10em;
     }
 }
 /*
