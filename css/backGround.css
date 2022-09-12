@@ -14,7 +14,8 @@ ul {
 }
 
 li{
-    margin: 0.75em 0 0 1em;
+    font-size: 1.3em;
+    margin: 0.75em 0 0 0em;
 }
 
 .contentBackGround{
@@ -26,8 +27,9 @@ li{
 }
 
 .chinoBackGround {
-    background-color: #ffc3c35d;
-    background-image: url("../pic/01.png");
+    background-color: #ffc3c344;
+    background-image: url("../pic/lucky_2.png");
+    background-size:75rem 75rem;
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-position: center 0pt;
