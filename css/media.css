@@ -63,6 +63,9 @@
     .box_block{
         max-width: 6.2em;
     }
+    .box{
+        font-size: 0.7em;
+    }
 }
 /*
 @media (min-width: 576px) {
